@@ -28,3 +28,28 @@
 - Different video-courses on YouTube
 
 ---
+
+## Code Example
+[Kata solution](https://www.codewars.com/kata/5390bac347d09b7da40006f6)
+
+```
+String.prototype.toJadenCase = function  () {
+  let str = this
+  let toString = str.toLowerCase().split(" ")
+  for (let i = 0; i< toString.length; i++){
+    toString[i] = toString[i].slice(0,1).toUpperCase() + toString[i].slice(1);
+    }
+  return toString.join(' ')
+  //...
+};
+```
+
+---
+
+## Languages
+Laguage | Level
+:---|---:
+Russian | Native
+Belarussian | Native
+Germany | B2
+English | B1
