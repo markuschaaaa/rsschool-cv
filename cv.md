@@ -47,9 +47,8 @@ String.prototype.toJadenCase = function  () {
 ---
 
 ## Languages
-Laguage | Level
-:---|---:
-Russian | Native
-Belarussian | Native
-Germany | B2
-English | B1
+Laguages
+- Russian | Native
+- Belarussian | Native
+- Germany | B2
+- English | B1
