@@ -91,6 +91,9 @@ select {
 *body{
    font-family: 'Oswald', sans-serif;
 }
+.container{
+   padding: 10px 60px;
+}
 .header{
    padding: 20px 60px;
    box-shadow: 0px 5px 20px #A2B1BD;
@@ -103,4 +106,55 @@ select {
 }
 .navigation a{
    text-decoration: none;
+}
+.main-information{
+   position: relative;
+   padding: 100px 0px;
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.avatar img{
+   border-radius: 50px;
+   height: 100%;
+   max-height: 380px;
+}
+.about-me{
+   z-index: 1;
+   position: relative;
+   top: 20px;
+   right: 200px;
+   width: 400px;
+   transition: all 1s 0.1s ease-in-out;
+   opacity: 0;
+   color: black;
+}
+.about-me:hover{
+   opacity: 1;
+   right: 300px;
+}
+.laptop-bg{
+   position: absolute;
+   top: 100px;
+   right: 80px;
+}
+.laptop-bg img{
+   height: 100%;
+   max-height: 500px;
+}
+.front-text{
+   font-size: 2rem;
+   z-index: 3;
+   position: absolute;
+   top: 150px;
+   right: 350px;
+}
+.arrow-down{
+   position: absolute;
+   top: 200px;
+   right: 520px;
+}
+.arrow-down img{
+   height: 100%;
+   max-height: 20px;
 }
