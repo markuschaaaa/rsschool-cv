@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+   <title>MyCV</title>
+</head>
+<body>
+   <div class="container">
+      <header class="header">
+         <div class="navigation">
+            <a href="#about-me-scroll">About Me</a>
+            <a href="#contacts-scroll">Contacts</a>
+            <a href="#skills-scroll">Skills</a>
+            <a href="#education-scroll">Programming Education</a>
+            <a href="#example-scroll">Code Example</a>
+            <a href="#languages-scroll">Languages</a>
+         </div>
+      </header>
+      <section class="main-information">
+         <div class="avatar">
+            <img src="./assets/img/avatar.png" alt="avatar.png">
+         </div>
+         <div class="about-me" id="about-me-scroll">
+            <h2>About Me</h2>
+            <h3>Mark 19</h3>
+            <p>Hi there! I'm Mark and i'm 19 y.o. I study at MSLU, interpreter's faculty.I've been learning programming languages for a year now, and I'm getting more and more passionate every day. I chose JavaScript language because it provides a lot of possibilities both in the front- and in the backend</p>
+         </div>
+         <div class="laptop-bg">
+            <img src="./assets/img/laptop.png" alt="laptop.png">
+         </div>
+         <div class="front-text">
+            <p>Hover your mouse over here</p>
+         </div>
+         <div class="arrow-down">
+            <img src="./assets/img/arrow.png" alt="arrow.png">
+         </div>
+      </section>
+      <section class="skills-and-education">
+         <div class="skills" id="skills-scroll">
+            <h2>My Skills</h2>
+            <ul class="first-list">
+               <li>html5</li>
+               <li>css/scss</li>
+               <li>JavaScript</li>
+               <li>Photoshop</li>
+               <li>Git/GitHub</li>
+            </ul>
+         </div>
+         <div class="education" id="education-scroll">
+            <h2>Education</h2>
+            <ul class="second-list">
+               <li>Self-sudying with:</li>
+               <li>Code-basics</li>
+               <li>FreeCodeCamp</li>
+               <li>CodeWars</li>
+               <li>Read the information on various forums</li>
+               <li>Different video-courses on YouTube</li>
+            </ul>
+         </div>
+      </section>
+      <section class="contacts-and-languages">
+         <div class="inner-contacts-and-languages">
+            <div class="contacts" id="contacts-scroll">
+               <h2>Contacts</h2>
+               <ul class="third-list">
+                  <li>Phone: +375(33)313-10-56</li>
+                  <li>Location: Minsk</li>
+                  <li>Email:<a href="mailto:">chumakoff03@gmail.com</a></li>
+                  <li>GitHub:<a href="https://github.com/markuschaaaa">https://github.com/markuschaaaa</a></li>
+               </ul>
+            </div>
+            <div class="languages" id="languages-scroll">
+               <h2>Languages</h2>
+               <ul class="fourth-list">
+                  <li>Russian-Native</li>
+                  <li>Belarussian-Native</li>
+                  <li>Germany-B2</li>
+                  <li>English-B1</li>
+               </ul>
+            </div>
+         </div>
+      </section>
+      <section class="code-example" id="example-scroll">
+         <div class="code">
+            <h3>Code Example</h3>
+            <p>String.prototype.toJadenCase = function () {
+            <br>let str = this
+            <br>let toString = str.toLowerCase().split(" ")
+            <br>for (let i = 0; i &lt; to String.length; i++){ toString[i]=toString[i].slice(0,1).toUpperCase() + toString[i].slice(1); }
+            <br>return toString.join(' ')
+            <br>};</p>
+         </div>
+      </section>
+      <footer class="footer">
+         <a href="https://github.com/markuschaaaa"><img src="./assets/img/github-logo.png" alt="github-logo.png"></a>
+         <p>2022-2023</p>
+         <a href="https://rs.school/js/"><img src="./assets/img/logo-rsschool3.png" alt="rs_school_js.svg"></a>
+      </footer>
+   </div>
+</body>
+</html>
