@@ -35,6 +35,9 @@ dl,
 dd {
    margin: 0;
 }
+html {
+   scroll-behavior: smooth;
+}
 
 /* Выставляем основные настройки по-умолчанию для body */
 body {
@@ -94,9 +97,8 @@ select {
 .container{
    height: 100%;
    max-height: 100%;
-   overflow: hidden;
    padding: 10px 60px;
-   padding-bottom: 200px;
+   padding-bottom: 0px;
 }
 .header{
    padding: 20px 60px;
@@ -106,7 +108,17 @@ select {
    display:flex;
    justify-content:space-around;
    align-items: center;
-   
+}
+.navigation a{
+   position: relative;
+   top: 0px;
+   left: 0px;
+   color: black;
+   transition: all 0.5s ease-in;
+}
+.navigation a:hover{
+   color: #4F4F4F;
+   top: -2px;
 }
 .navigation a{
    text-decoration: none;
@@ -119,6 +131,7 @@ select {
    align-items: center;
 }
 .avatar img{
+   box-shadow: 0px 0px 20px black;
    border-radius: 50px;
    height: 100%;
    max-height: 380px;
@@ -165,9 +178,12 @@ select {
 .skills-and-education{
    position: relative;
    top: 150px;
-   left: 200px;
+   right: 0px;
    display: flex;
-   justify-content: space-evenly;
+   justify-content: right;
+}
+.skills{
+   padding-right: 280px;
 }
 .skills li{
    padding: 7px 20px;
@@ -177,6 +193,9 @@ select {
    box-shadow: 2px -2px 5px 0 rgba(0, 0, 0, .1);
    font-size: 20px;
    letter-spacing: 2px;
+}
+.skills li:hover{
+   box-shadow: 2px -2px 15px 0 rgba(0, 0, 0, .1);
 }
 .first-list{
    width: 300px;
@@ -190,7 +209,9 @@ select {
    font-size: 20px;
    letter-spacing: 2px;
 }
-
+.education li:hover{
+   box-shadow: 2px -2px 15px 0 rgba(0, 0, 0, .1);
+}
 .second-list {
    width: 300px;
 }
@@ -219,7 +240,41 @@ select {
    top: -270px;
    left: 0px;
 }
+.contacts{
+   padding-bottom: 20px;
+}
 .contacts a{
    color: #2286F0;
    text-decoration: none;
+}
+.code-example{
+   display: flex;
+   justify-content: center;
+   position: relative;
+   top: 200px;
+   left: -20px;
+}
+.code-example h3{
+   padding-bottom: 30px;
+}
+.code{
+   background: #F2F2F2;
+   padding: 20px 10px;
+   box-shadow: 0px 0px 10px black;
+   width: 100%;
+   max-width: 300px;
+}
+.footer{
+   align-items: center;
+   background: #F2F2F2;
+   padding: 20px;
+   position: relative;
+   bottom: -400px;
+   left: 0px;
+   display: flex;
+   justify-content: space-around;
+}
+.footer img{
+   height: 100%;
+   max-height: 50px;
 }
