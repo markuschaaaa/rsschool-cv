@@ -278,3 +278,21 @@ select {
    height: 100%;
    max-height: 50px;
 }
+#project{
+   position: absolute;
+   bottom: -730px;
+   left: 100px;
+}
+#game {
+   position: absolute;
+   bottom: -730px;
+   right: 100px;
+}
+#project a{
+   text-decoration: none;
+   color: #2286F0FF;;
+}
+#game a{
+   text-decoration: none;
+   color: #2286F0FF;
+}
