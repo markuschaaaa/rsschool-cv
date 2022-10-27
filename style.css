@@ -278,3 +278,23 @@ select {
    height: 100%;
    max-height: 50px;
 }
+#site{
+   position: absolute;
+   bottom: -730px;
+   left: 100px;
+}
+#game{
+   position: absolute;
+   bottom: -730px;
+   right: 100px;
+}
+#site a{
+   text-decoration: none;
+   color: #2286F0FF;
+
+}
+#game a {
+   text-decoration: none;
+   color: #2286F0FF;
+
+}
